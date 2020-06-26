@@ -103,18 +103,18 @@
 
 	<system:String x:Key="Message.SureDelete">Are you sure you want to permanently delete &quot;{0} ({1})&quot; ?</system:String>
 	<system:String x:Key="Message.Title.ServiceDown">Revive RaiDrive</system:String>
-	<system:String x:Key="Message.Title.Reconnect">RaiDrive Reconnect</system:String>
+	<system:String x:Key="Message.Title.Reconnect">Kết nối lại RaiDrive</system:String>
 	<system:String x:Key="Message.ServiceDown">Please press OK button, RaiDrive will be alive.</system:String>
 	<system:String x:Key="Message.Settings.Reconnect">Please press OK button, You must reconnect the remote storage for the changed settings to take effect.</system:String>
 	<system:String x:Key="Message.NotReady.Reboot">RaiDrive is not ready to start, You need restart system.</system:String>
 	<system:String x:Key="Message.NotReady.Driver">Device driver is not installed on your system. You need reinstall RaiDrive.</system:String>
 	<system:String x:Key="Message.NotSupport.Browser.Dropbox">Dropbox supports Internet Explorer 10, 11. You'd better install Internet Explorer 11.</system:String>
-	<system:String x:Key="Message.Connect.By">Connected by RaiDrive</system:String>
+	<system:String x:Key="Message.Connect.By">Đã kết nối tới RaiDrive</system:String>
 	<system:String x:Key="Message.Maximum.Drive">Up to 8 drives can be created in the current version</system:String>
 	<system:String x:Key="Message.License.Expired">Your license has been expired. You need to download the new version. Press OK to upgrade.</system:String>
 	<system:String x:Key="Message.License.NotReady">RaiDrive cannot validate your license.</system:String>
 	<system:String x:Key="Message.UnknownSpace">Unknown space</system:String>
-	<system:String x:Key="Message.CurrentVersion">Current version is {0}</system:String>
+	<system:String x:Key="Message.CurrentVersion">Phiên bản hiện tại là {0}</system:String>
 	<system:String x:Key="Message.Cache.Folder.NotSupport">The temporary folder must be a folder on the local disk drive. Network drive is not supported.</system:String>
 
 	<system:String x:Key="Message.ErrorRemoteDriveAuth">Authorization or authentication failed. Would you like to re-authenticate?</system:String>
@@ -172,8 +172,8 @@
 	<system:String x:Key="Upgrade.NewVersion">You can upgrade to the version {0}</system:String>
 	<system:String x:Key="Upgrade.New">You can upgrade to the new version</system:String>
 
-	<system:String x:Key="NotifyIcon.Open">Open RaiDrive</system:String>
-	<system:String x:Key="NotifyIcon.CheckUpdate">Check update</system:String>
+	<system:String x:Key="NotifyIcon.Open">Mở RaiDrive</system:String>
+	<system:String x:Key="NotifyIcon.CheckUpdate">Kiểm tra cập nhật</system:String>
 	<system:String x:Key="NotifyIcon.Exit">Exit</system:String>
 	<system:String x:Key="NotifyIcon.Exit.Message">Are you sure you want to disconnect all connections before exit?</system:String>
 
@@ -188,12 +188,12 @@
 	<system:String x:Key="Brand.etc">etc</system:String>
 
 	<!--  backup  -->
-	<system:String x:Key="Backup">Backup</system:String>
-	<system:String x:Key="Backup.Add">Add</system:String>
-	<system:String x:Key="Backup.Delete">Delete</system:String>
-	<system:String x:Key="Backup.Start">Start</system:String>
-	<system:String x:Key="Backup.Stop">Stop</system:String>
-	<system:String x:Key="Backup.BackupNOW">Backup NOW</system:String>
+	<system:String x:Key="Backup">Sao lưu</system:String>
+	<system:String x:Key="Backup.Add">Thêm</system:String>
+	<system:String x:Key="Backup.Delete">Xóa</system:String>
+	<system:String x:Key="Backup.Start">Bắt đầu</system:String>
+	<system:String x:Key="Backup.Stop">Dừng</system:String>
+	<system:String x:Key="Backup.BackupNOW">Sao lưu BÂY GIỜ</system:String>
 	<system:String x:Key="Backup.NOW">NOW</system:String>
 	<system:String x:Key="Backup.Save">Save</system:String>
 	<system:String x:Key="Backup.ClearLog">Clear log</system:String>
@@ -203,13 +203,13 @@
 	<system:String x:Key="Backup.AutoStart">Auto Start</system:String>
 	<system:String x:Key="Backup.LogTab.Current">Current</system:String>
 	<system:String x:Key="Backup.LogTab.All">All</system:String>
-	<system:String x:Key="Backup.LogTab.Error">Error</system:String>
-	<system:String x:Key="Backup.LogTab.Ready">Ready</system:String>
-	<system:String x:Key="Backup.LogTab.Left">Left</system:String>
-	<system:String x:Key="Backup.LogTab.File">File</system:String>
-	<system:String x:Key="Backup.LogTab.Folder">Folder</system:String>
+	<system:String x:Key="Backup.LogTab.Error">Lỗi</system:String>
+	<system:String x:Key="Backup.LogTab.Ready">Sẵn sàng</system:String>
+	<system:String x:Key="Backup.LogTab.Left">Trái</system:String>
+	<system:String x:Key="Backup.LogTab.File">Tệp tin</system:String>
+	<system:String x:Key="Backup.LogTab.Folder">Thư mục</system:String>
 	<system:String x:Key="Backup.LogTab.FollowLatest">Follow Latest</system:String>
-	<system:String x:Key="Backup.Count.Left">Left</system:String>
+	<system:String x:Key="Backup.Count.Left">Trái</system:String>
 	<system:String x:Key="Backup.Count.Processed">Processed</system:String>
 
 	<system:String x:Key="Message.Backup.BackupTargetFolder">Select a remote folder where files will be stored</system:String>
@@ -239,11 +239,11 @@
 	<system:String x:Key="Words.Site">Site</system:String>
 
 	<!--  from version 1.9.0  -->
-	<system:String x:Key="Words.Project">Project</system:String>
+	<system:String x:Key="Words.Project">Dự án</system:String>
 	<system:String x:Key="Words.Bucket">Bucket</system:String>
 	<system:String x:Key="Words.Tenant">Tenant</system:String>
 	<system:String x:Key="Words.Subscription">Subscription</system:String>
-	<system:String x:Key="Words.Community">Community</system:String>
+	<system:String x:Key="Words.Community">Cộng đồng</system:String>
 	<system:String x:Key="Words.Document">Document</system:String>
 
 	<system:String x:Key="Words.Cache">Cache</system:String>
